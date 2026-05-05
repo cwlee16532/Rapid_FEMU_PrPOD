@@ -76,7 +76,7 @@ Operating points {μ^(i)}, system matrices M(μ), C(μ), K(μ), frequency grid, 
 ### 1) Offline: Build Parametric ROM
 
 Run:
-- `main/main_offline_build_ROM.m`  
+- `main_offline_build_ROM.m`  
 
 This script:
 - Computes FRFs at operating points  
@@ -88,7 +88,7 @@ This script:
 ### 2) Online: Model Updating (PSO + PrPOD)
 
 Run:
-- `main/main_online_FEMU_PSO.m`  
+- `main_online_FEMU_PSO.m`  
 
 This script:
 - Executes progressive PSO-based FEMU  
@@ -100,7 +100,7 @@ This script:
 ### 3) Online: Fast Time-Domain Response
 
 Run:
-- `main/main_online_time_response.m`  
+- `main_online_time_response.m`  
 
 This script:
 - Performs online dynamic response analysis  
@@ -114,7 +114,7 @@ The framework is validated using a laboratory-scale five-story frame structure.
 
 The case study demonstrates:
 
-- Accurate parameter identification under stiffness variations  
+- Accurate parameter identification under parameter variations  
 - Robust FRF matching without explicit mode pairing  
 - Efficient computation through progressive ROM expansion  
 - Reliable time-domain response prediction after updating  
